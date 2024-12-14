@@ -1,0 +1,18 @@
+# Ignore specific files in the database directory
+backend/database/add_sites.py
+backend/database/scripts.py
+backend/database/wine_tracker.db
+
+# Ignore Python bytecode cache directories
+backend/server/__pycache__/
+backend/server/scraping/__pycache__/
+
+# Optional: Generalize Python cache files and logs (Recommended)
+__pycache__/
+*.py[cod]
+
+# Optional: Generalize SQLite database files
+*.db
+
+# Optional: Ignore all log files
+*.log
